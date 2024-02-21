@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+    height: 100%;
+}
+.nav{
+    color: beige;
+    border: 1px solid blackw;
+}
+.main-navbar{
+    background-color: black;
+    color: grey;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 300px;
+}
+.one-content{
+    background-color: black;
+    color: grey;
+    height: 200px;
+    top: 100px;
+    position: absolute;
+    /* text-align: center; */
+    left: 40px;
+    /* position: absolute; */
+    height: 500px;
+    
+}
+.fir-img{
+    position: absolute;
+    top: 100px;
+    /* text-align: right; */
+    right: 100px;
+    height: 150px;
+    
+}
+.two-content{
+    position: relative;
+    /* left: 20px; */
+    padding-left: 20px;
+    top: 300px;
+}
+/* .p-1{
+    position: absolute;
+    left: 20px;
+} */
+*{
+    background-color: black;
+}
+#pak-basic{
+    position: absolute;
+    top: 550px;
+    left: 40px;
+    color: grey;
+    border: 1px solid white;
+    height: 370px;
+    width: 280px;
+    text-align: center;
+
+}
+#pak-pro{
+    position: absolute;
+    top: 550px;
+    color: grey;
+    text-align: right;
+    right: 40px;
+    border: 1px solid white;
+    height: 370px;
+    width: 280px;
+    text-align: center;
+
+}
+.btn-pro:hover{
+    background-color: rgb(165, 0, 0);
+    color: black;
+}
+.btn-basic:hover{
+    background-color: rgb(160, 1, 1);
+    color: black;
+}
+.btn-pro{
+    color: black;
+    background-color: grey;
+}
+.btn-basic{
+    color: black;
+    background-color: gray;
+}
+/* #slides{
+    position: absolute;
+    top: 1000px;
+    border: 1px solid black;
+    height: 150px;
+} */
+#project{
+    position: relative;
+    text-align: right;
+}
+.rec-pro1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 900px;
+    right: 250px;
+}
+.rec-pro2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 1100px;
+    right: 150px;
+}
+.rec-pro3{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 1300px;
+    right: 250px;
+}
+#rec-pro{
+    color: grey;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 1150px;
+    width: 50%;
+    left: 50px;
+
+}
+#clients-cont{
+    color: grey;
+    position: absolute;
+    top: 1700px;
+    width: 150px;
+    height: 400px;
+    letter-spacing: 0.1cm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 50px;
+}
+#clients-img{
+    position: absolute;
+    top: 1800px;
+    right: 50px;
+
+}
+form{
+    top: 2500px ;
+    position: absolute;
+    background-color: aliceblue;
+}
